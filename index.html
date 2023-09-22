@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELIASCO TOWING</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Poppins:wght@300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- date and time -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css'>
+    <link rel="stylesheet" href="css/date.css">
+    <!-- ....... -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- splide slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Header -->
+    <div class="container-fluid parent">
+        <div class="layout">
+            <!-- Navbare -->
+            <nav class="navbar navbar-expand-lg shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo" href="#">
+                        <img src="images/tow (1).png" style="width: 50px;" alt="logo">
+                        <span style="font-size: 1.3rem; padding-top: 1px; font-weight: 600;">Eliasco Towing</span>
+                    </a>
+                    <!-- Button trigger modal -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navModal" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <input type="checkbox" name="toggle-menu" id="toggle-menu">
+                        <label for="toggle-menu" class="toggle-btn">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </label>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                            <li class="nav-item me-4 py-2">
+                                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-4 py-2">
+                                <a class="nav-link" href="#about-nav">About</a>
+                            </li>
+                            <li class="nav-item me-4 py-2">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item me-4 py-2">
+                                <a class="nav-link" href="#testimonial">Reviews</a>
+                            </li>
+                            <li class="nav-item me-4 py-2">
+                                <a class="nav-link" href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>          
+            <!-- Modal -->
+            <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title logo fs-5" id="exampleModalLabel">
+                                <img src="images/tow (1).png" style="width: 50px;" alt="logo">
+                                <span style="font-size: 1.5rem; padding-top: 1px;">Eliasco Towing</span>
+                            </h1>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item me-1">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item me-1">
+                                    <a class="nav-link" href="#testimonial">Reviews</a>
+                                </li>
+                                <li class="nav-item me-1">
+                                    <a class="nav-link" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headerTxt text-center p-3" >
+                <h1 data-aos="fade-up" data-aos-duration="1500" class="text-white big-screen">A LOCALLY PREFERRED 24-HOUR TOW <br> COMPANY BASED IN HARRIS COUNTY, TX</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1000" class="text-white min-screen">A LOCALLY PREFERRED 24-HOUR TOW COMPANY BASED IN HARRIS COUNTY, TX</h1>
+                <p data-aos="fade-up" data-aos-duration="2000" style="color: #ffc326;">We’re here for all your towing and roadside assistance needs whenever you need us!</p>
+                <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-dark mt-3"><a href="#services" style="text-decoration: none;color: white;">
+                    Explore Services</a></button>
+            </div>
+            <span id="Book"></span>
+        </div>
+    </div>
+    <!-- Booking -->
+    <div  class="container booking-sec mb-5">
+        <div class="row booking-pos mb-5 " style="margin-right: 0 !important;">
+            <div data-aos="fade-right" data-aos-duration="1500" class="col-lg-8 col-md-12 shadow rounded-3 box">
+                <div>
+                    <h3 class="mb-4 mt-3 px-3">Booking Online</h3>
+                    <form   class="row p-3">
+                        <div class="mb-3 col-md-4 ">
+                            <label for="name" class="form-label"><span class="text-danger">*</span>Name</label>
+                            <input  type="text" class="form-control requierd-field" onkeyup="enableSubmit()" id="name" required>
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label for="phone" class="form-label"><span class="text-danger">*</span>Phone</label>
+                            <input  type="text" class="form-control requierd-field" onkeyup="enableSubmit()" id="phone" required>
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label for="pickLocation" class="form-label">Pickup Location</label>
+                            <input  type="text" class="form-control "  id="pickLocation" require d>
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label for="dropLocation" class="form-label">Drop Off Location</label>
+                            <input  type="text" class="form-control "  id="dropLocation" require d>
+                        </div>
+                        <div class="mb-3 col-md-8">
+                            <label for="towReason" class="form-label">Vehicle Tow Reason</label>
+                            <input  type="text" class="form-control "  id="towReason" required>
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label for="datepicker" class="form-label">Date</label>
+                            <div class="input-group date" id="datepicker">
+                                <input class="form-control "  id="bookingDate" required  placeholder="MM/DD/YYYY"/><span class="input-group-append input-group-addon"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label for="timepicker" class="form-label">Time</label>
+                            <div class="input-group time" id="timepicker">
+                                <input class="form-control "  id="bookingTime" required  placeholder="HH:MM AM/PM"/><span class="input-group-append input-group-addon"><span class="input-group-text"><i class="fa fa-clock"></i></span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="mb-3 col-md-4" >
+                            <button id="bookBtn" type="button"  onclick="bookingViaWhatsapp(); reset()" 
+                            class="btn btn-dark call-btn p-2 mt-4" 
+                            style="width: 100% !important; border-radius: 10px;"
+                            disabled>
+                            <a  
+                            style="text-decoration: none;color: white;">
+                                Booking Now</a>
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-1 col-md-12 mt-5"></div>
+            <div data-aos="fade-left" data-aos-duration="1500" class="col-lg-3 col-md-12 shadow rounded-3 box">
+                <div>
+                    <h3 class="mb-5 mt-3 px-3">Call Us</h3>
+                    <div class="row">
+                        <div class="col-sm-3 text-center">
+                            <div>
+                                <img src="images/call-center.png" width="60px" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-9 call-info-sm">
+                            <p class="text-warning h6  mb-3">24/7 EMERGENCY TOWING</p>
+                            <p class="h4">3464955050</p>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <div>
+                                <button class="btn btn-dark call-btn p-2 my-4" 
+                                style="width: 90% !important;">
+                                <a  href="tel:3464955050" 
+                                style="text-decoration: none;color: white;">
+                                    Call Now</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span id="about-nav"></span>
+    <!-- About Us -->
+    <div id="about" class="container-fluid mb-5 about-us px-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h2 data-aos="fade-down" data-aos-duration="1000" class="mb-0">YOUR LOCALLY OWNED CHOICE FOR FAST AND AFFORDABLE TOWING SERVICES</h4>
+                    <span  class="dot-span"></span>
+                    <span  class="dot-span"></span>
+                    <span  class="dot-span"></span>
+
+                    <p data-aos="fade-left" data-aos-duration="1500" class="text-secondary mt-4">
+                        We’re your direct line to fast, affordable, and reliable emergency vehicle services in Harris County and beyond. Although we started our company merely 3 years ago, we’ve since grown into a reliable roadside enterprise for drivers throughout the area. No matter where you are or what the problem looks like, you can call our 24/7 dispatch line for a quick, easy, and knowledgeable response from professionals who truly care about your safety.</p>
+                    <p data-aos="fade-left" data-aos-duration="1800" class="h5 mt-4">
+                        Just call us <span class="text-secondary">or</span>
+                        <span><a href="#Book" style="text-decoration: none; color: #ffc326; ">Book now</a></span> <br>
+                        <span class="h3" >(346) 495 5050</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div data-aos="fade-down" data-aos-duration="1000">
+                    <img class="rounded-3" src="images/IMG_2643.jpeg" alt="tow-truck" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="container-fluid mb-5 py-5 px-4">
+        <div class="row">
+            <div class="col-md-5">
+                <div>
+                    <h2 class="text-white mb-0">Our Services</h2>
+                    <p class="text-secondary mb-0" style="font-size: 14px;">ANYWHERE, ANYTIME TOWING</p>
+                    <span class="dot-span"></span> <span class="dot-span"></span> <span class="dot-span"></span>
+                    <p class="text-secondary mt-3">Ready to leave the frustrating roadside work to professionals who can turn your day around? Call us 24/7 to request a free quote for towing and roadside assistance or learn more about our junk car buying services.</p>
+                    <div>
+                        <button class="btn btn-dark call-btn-serv p-2 my-4" 
+                        style="width: 40% !important;">
+                        <a  href="tel:3464955050" 
+                        style="text-decoration: none;color: white;">
+                            Call Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1000">
+                            <img class="me-3" src="images/icon1.png" alt="icon">
+                            <span class="h6 text-white">Car Towing</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1000">
+                            <img class="me-3" src="images/icon12.png" alt="icon">
+                            <span class="h6 text-white">Motorcycle Towing</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1200">
+                            <img class="me-3" src="images/punctured-tire (3).png" width="40px" alt="icon">
+                            <span class="h6 text-white">Tire change </span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1200">
+                            <img class="me-3" src="images/hook (1).png" width="35px" alt="icon">
+                            <span class="h6 text-white">Wrecker services</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1400">
+                            <img class="me-3" src="images/car-oil (1).png" width="38px" alt="icon">
+                            <span class="h6 text-white">Fuel delivery </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1400">
+                            <img class="me-3 acc-img" src="images/icon4.png"  alt="icon">
+                            <span class="h6 text-white">Accident removal & Recovery</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1600">
+                            <img class="ms-1 me-3" src="images/accumulator.png" width="35px" alt="icon">
+                            <span class="h6 text-white">Battery services</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1600">
+                            <img class="me-3" src="images/shipping.png" width="45px" alt="icon">
+                            <span class="h6 text-white">Medium & Heavy Duty Towing</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1800">
+                            <img class="me-3 mt-0" src="images/lock.png" width="38px" alt="icon">
+                            <span class="h6 text-white">Vehicle lockout</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-box" data-aos="fade-down" data-aos-duration="1800">
+                            <img class="me-3" src="images/call.png" width="45px" alt="icon">
+                            <span class="h6 text-white">Roadside assistance services</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- why us -->
+    <div id="why-us" class="container-fluid px-4">
+        <div class="about-header rounded-3">
+            <div class="layout w-100 rounded-3">
+                <h2 class="text-center h1 my-5" >Why Eliasco Towing</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" class="why-box rounded-3 shadow p-5 me-3 mb-4">
+                    <h2 class="mb-5 text-capitalize">RELIABLE 24-HOUR LIGHT AND HEAVY DUTY ROADSIDE SERVICE</h2>
+                    <p style="text-align: justify;"
+                    class="text-secondary">Vehicle breakdowns and unexpected maintenance issues can happen to anyone, but only some have a direct line to expert roadside service technicians. Call for 24/7 support with tire changes, jumpstarts, fuel-ups, and more.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" class="why-box rounded-3 shadow p-5 me-3 mb-4">
+                    <h2 class="mb-5 text-capitalize">LICENSED AND INSURED TOW TRUCK OPERATORS</h2>
+                    <p style="text-align: justify;"
+                    class="text-secondary">We set you up for immediate success as soon as we arrive at your location. With knowledgeable, licensed, and insured 24-hour tow truck drivers who know the Harris County region well, you’ll never have to worry about unprofessional service.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" class="why-box rounded-3 shadow p-5 me-3 mb-4">
+                    <h2 class="mb-5 text-capitalize">FAIR PAYMENTS IN EXCHANGE FOR JUNK CARS
+                    </h2>
+                    <p style="text-align: justify;"
+                    class="text-secondary">Get fast cash for junk cars from buyers who’ll offer reasonable rates on your old reliable vehicle. We take your car’s make, model, condition, and other factors into consideration, then offer a fair cash price on the spot. The best part? Your haul-away service is free.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- testimonial -->
+    <div id="testimonial" class="container-fluid mb-5 py-5 px-4" style="margin-top: 80px;">
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <div>
+                    <h2 class="text-warning ms-5 mb-1 review-side">TESTIMONIALS</h2>
+                    <!-- slider -->
+                    <div id="slider1" class="splide" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <!-- 1 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    K
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Kyosha Yarbrough </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Eliasco is affordable, fast, and goes over and beyond to help their customers, I would recommend this company to anyone in Texas or passing through.</p>
+                                    </div>
+                                </li>
+
+                                <!-- 2 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    B
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Brittnae Jones </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Rafat was amazing. He really went above and beyond. He's professional and kind. Also very knowledgeable. Refer 10/10</p>
+                                    </div>
+                                </li>
+
+                                <!-- 3 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    L
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Latina Vallecillo </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">They were professional, communicated well, and we're reasonably priced. I will use them for any emergency I may have from now on.</p>
+                                    </div>
+                                </li>
+
+                                <!-- 4 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    E
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Earion Smith  </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Use his services three different times was always reliable and price reasonable.</p>
+                                    </div>
+                                </li>
+
+                                <!-- 5 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    A
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Abena A </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Great service, reasonable price</p>
+                                    </div>
+                                </li>
+
+                                <!-- 6 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    Y
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Yahya Jbara </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Great service, reasonable price recommend. Ask for Ray</p>
+                                    </div>
+                                </li>
+                                <!-- 7 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    L
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Leanessa-Lea Byrd </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">Eliasco Towing was the only towing company that answered my phone calls! He responded within 30 minutes and got my car safely to where it needed to go. So grateful!</p>
+                                    </div>
+                                </li>
+
+                                <!-- 8 -->
+                                <li class="splide__slide">
+                                    <!-- review box -->
+                                    <div class="review-div ps-5 pe-2  mt-5">
+                                        <div class="item-review ps-4">
+                                            <div class="me-4 mb-3">
+                                                <div class="letter">
+                                                    S
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span class="text-white">Shahryar Asadi </span><br>
+                                                <span class="text-warning">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p class="text-white ps-4 pe-3">They are so fast and they do a really good job thanks for your kindness.</p>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="1500"  class="col-md-6 review-border ">
+                <div class="review-side ps-3">
+                    <h2 class="text-white">What <span class="text-warning">Clients</span> say about us?</h2>
+                    <h3 class="text-white h4 mt-4 pe-5">We are a well-equipped towing service available to help with towing a car 24/7 we provide a fast, affordable, friendly, and reliable car towing service.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallery -->
+    <div id="gallery" class="container-fluid " >
+
+    </div>
+
+    <!-- map& contact -->
+    <div id="contact" class="container-fluid mb-5 py-5 px-4" style="margin-top: 80px;" >
+        <div class="row up">
+            <div class="col-lg-6 col-md-12 text-center">
+                <div class="rounded-3">
+                    <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3460.031554974444!2d-95.4118624!3d29.8633638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c7e1d622f2e9%3A0xee572c00ec87c01f!2s7002%20N%20Shepherd%20Dr%2C%20Houston%2C%20TX%2077091%2C%20USA!5e0!3m2!1sen!2seg!4v1695419753077!5m2!1sen!2seg" width="90%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact mt-3">
+
+                    <p data-aos="fade-up" data-aos-duration="1100" class="mb-5">
+                        <i class="fa-solid fa-location-dot"></i> <span>7002 North Shepherd Dr, Houston, TX 77091</span>
+                    </p>
+
+                    <p data-aos="fade-up" data-aos-duration="1200" class="mb-5">
+                        <a href="mailto:eliascotowing@gmail.com">
+                            <i class="fa-solid fa-envelope"></i> <span>eliascotowing@gmail.com</span>
+                        </a>
+                    </p>
+
+                    <p data-aos="fade-up" data-aos-duration="1300" class="mb-5">
+                        <a href="https://wa.me/13464955050" target="_blank">
+                            <i class="fa-brands fa-square-whatsapp"></i> <span>Chat on WhatsApp</span>
+                        </a>
+                    </p>
+
+                    <p data-aos="fade-up" data-aos-duration="1400" class="mb-5">
+                        <a href="tel:3464955050">
+                            <i class="fa-solid fa-phone-flip"></i> <span>(346) 495 5050</span>
+                        </a>
+                    </p>
+
+                    <p data-aos="fade-up" data-aos-duration="1500" class="mb-5">
+                        <a href="https://www.facebook.com/profile.php?id=100089852601995" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i> <span> Follow Us</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid footer">
+        <div class="text-center text-white ">
+            <img src="images/tow (1).png" style="width: 50px;" alt="logo">
+            <span style="line-height: 1.7; font-size: 1.3rem; padding-top: 1px; font-weight: 600; letter-spacing: 2px;">Eliasco Towing</span>
+            <p style="font-size: 14px;">WE ARE READY <br> <span class="text-warning">24 HOURS</span> TO HELP YOU.</p>
+        </div>
+    </footer>
+
+
+
+
+    
+    <!-- date & time -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/eonasdan-bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js'></script>
+    <script src="js/date.js"></script>
+    <!-- ........... -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- my script -->
+    <script src="js/script.js"></script>
+    <!-- splide slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js" integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        AOS.init();
+        //splid slider
+        var splide1 = new Splide( '#slider1', {
+            autoplay: true,
+            type    : 'loop',
+            perPage : 1,
+            drag   : 'free',
+            
+        } );
+        splide1.mount();
+    </script>
+</body>
+</html>
